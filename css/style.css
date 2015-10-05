@@ -178,6 +178,7 @@ body {
 #filters li {
 	float:left;
 	margin-left: 17px;
+	margin-bottom: 20px;
 }
 #filters li span {
 	display: block;
