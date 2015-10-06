@@ -76,6 +76,22 @@ body {
 	color: #ffffff;
 	background: #1bbc9b;
 }
+
+/* custom column used in contact */
+.custom_col {
+	width: 33.33%;
+	margin:	auto;
+	float: left;
+	padding-top: 90px;
+	padding-bottom: 120px;
+}
+
+.contact-icons {
+	max-width: 100%;
+	margin:	auto;
+	display: block;
+}
+
 /************end-nav***********/
 /* start slider */
 .slider_bg{
@@ -186,7 +202,7 @@ body {
 	text-decoration: none;
 	color: #fff;
 	background:#1BBC9B;
-	cursor: pointer;
+	cursor: aboutinter;
 	text-transform:uppercase;
 	font-weight: 600;
 }
@@ -220,6 +236,24 @@ body {
 	-webkit-transition: all 300ms!important;
 	-moz-transition: all 300ms!important;
 }
+
+/******** resume style *********/
+.resume {
+	background: #1BBC9B;
+	text-align:center;
+	padding: 5em 0em;
+}
+.resume h2{
+	color:#fff;
+	font-size:2em;
+	padding-bottom: 0.5em;
+}
+.resume p{
+	color:#fff;
+	font-size:1em;
+	padding-bottom: 4em;
+}
+
 /**********about-style**********/
 .grid{
 	position: relative;
@@ -260,17 +294,17 @@ body {
 }
 .about
 {
-	background: #1BBC9B;
+	background: #EBEBEB;
 	text-align:center;
 	padding: 5em 0em;
 }
 .about h2{
-	color:#fff;
+	color:#4A4A4A;
 	font-size:2em;
 	padding-bottom: 0.5em;
 }
 .about p{
-	color:#fff;
+	color:#4A4A4A;
 	font-size:1em;
 	padding-bottom: 4em;
 }
@@ -349,7 +383,7 @@ body {
 	width: 32.2%;
 }
 .contact {
-	background: #EBEBEB;
+	background: #303440;
 }
 .contact-form{
 	padding-bottom:30px;
@@ -358,15 +392,21 @@ body {
 	padding:5px 0 15px;
 }
 .contact h2{
-	color:#444444;
+	color:#9EA4B5;
 	font-size:2em;
 	padding: 2em 0em 0.7em 0em;
 	text-align: center;
 }
 .contact h4{
-	color:#444;
+	color:#9EA4B5;
 	font-size:1em;
 	text-align: center;
+}
+.contact p {
+	color: #9EA4B5;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 24px;
 }
 .contact h5{
 	color:#444;
@@ -455,7 +495,7 @@ body {
 /*--footer--*/
 .footer-bottom {
 	padding: 25px 0;
-	background: #303441;
+	background: #EBEBEB;
 }
 .copy p {
 	color: #666D89;
