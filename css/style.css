@@ -77,6 +77,24 @@ body {
 	background: #1bbc9b;
 }
 
+/* button for downloading resume*/
+.ignite-btn {
+	display: inline-block;
+	padding: 25px 40px;
+	color: #fff;
+	border: solid 1px #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 75px;
+}
+
+.ignite-btn:hover, .ignite-btn:focus {
+	color: #242830;
+	border: solid 1px #242830;
+}
+
+
 /* custom column used in contact */
 .custom_col {
 	width: 33.33%;
@@ -406,7 +424,7 @@ body {
 	color: #9EA4B5;
 	text-align: center;
 	margin-top: 30px;
-	font-size: 24px;
+	font-size: 18px;
 }
 .contact h5{
 	color:#444;
