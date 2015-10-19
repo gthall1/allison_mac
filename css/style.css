@@ -104,6 +104,43 @@ body {
 	padding-bottom: 120px;
 }
 
+.wide_col {
+	width: 66.66%;
+	margin: auto;
+	float: right;
+	padding-top: 90px;
+	padding-bottom: 120px;
+}
+
+.about_col {
+	width: 34%;
+	margin:	auto;
+	float: left;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+}
+
+.wide_about_col {
+	width: 50%;
+	margin: auto;
+	float: right;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	padding-right: 40px;
+	line-height: 1.5;
+}
+
+#james_quote {
+	font-size: 20px;
+	color: #929497;
+}
+
+#my_quote {
+	font-size: 20px;
+	color: #000;
+}
+
 .contact-icons {
 	max-width: 100%;
 	margin:	auto;
@@ -113,7 +150,7 @@ body {
 /************end-nav***********/
 /* start slider */
 .slider_bg{
-	background:  url('../images/lighthouse.png') no-repeat;
+	background:  url('../images/mountain_road.png') no-repeat;
 	background-size: 100% 100%;
 }
 .da-slide {
@@ -317,14 +354,15 @@ body {
 	padding: 5em 0em;
 }
 .about h2{
-	color:#4A4A4A;
+	color:#929497;
 	font-size:2em;
 	padding-bottom: 0.5em;
 }
 .about p{
-	color:#4A4A4A;
+	color:#000;
 	font-size:1em;
-	padding-bottom: 4em;
+	padding-bottom: 3em;
+	padding-top: 1em;
 }
 .about-grids
 {
@@ -1208,3 +1246,4 @@ padding: 1.2em 0em;
 	margin-left: 50px;
 }
 }
+
