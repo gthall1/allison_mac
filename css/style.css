@@ -86,7 +86,7 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
-	margin-top: 75px;
+	margin-top: 25px;
 }
 
 .ignite-btn:hover, .ignite-btn:focus {
@@ -307,6 +307,18 @@ body {
 	color:#fff;
 	font-size:1em;
 	padding-bottom: 4em;
+	letter-spacing: .7px;
+	line-height: 1.75;
+}
+
+.resume_blurb {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.more {
+	width: 80%;
+	margin: auto;
 }
 
 /**********about-style**********/
@@ -550,8 +562,8 @@ body {
 }
 /*--footer--*/
 .footer-bottom {
-	padding: 25px 0;
-	background: #EBEBEB;
+	padding-bottom: 15px;
+	background: #303440;
 }
 .copy p {
 	color: #666D89;
