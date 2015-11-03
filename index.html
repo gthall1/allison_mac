@@ -253,8 +253,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <h2>Oracle Open World - San Francisco, CA</h2>
 
                  <!-- video code goes here -->
-                 <div class="fb-video" data-href="https://www.facebook.com/FacebookDevelopers/videos/10152454700553553/"
-  data-allowfullscreen="true" data-width="500"></div>
+                 <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="1" data-href="/OracleOpenWorld/videos/vb.126461805681/10153679034920682/?type=3"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/OracleOpenWorld/videos/10153679034920682/"><a href="https://www.facebook.com/OracleOpenWorld/videos/10153679034920682/">The Story of the Cloud</a><p>Are you ready to see yourself #InTheCloud? Become immersed in an interactive art installation and a moment of relaxation, hidden within the heart of the city. Experience it Sunday after 11am, as Oracle OpenWorld brings the cloud to life.</p>Posted by <a href="https://www.facebook.com/OracleOpenWorld/">Oracle OpenWorld</a> on Saturday, October 24, 2015</blockquote></div></div>
 
 
                 <p class="para"></p>
@@ -314,19 +313,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <div class="container">
             <h2>Portfolio</h2>
             <p>See below for a few samples of projects that showcase the quality of my work.</p>
-            <ul id="filters" class="clearfix">
-              <li><span class="filter active" data-filter="bud oracle ray micro edi cape">All</span></li>
-              <li><span class="filter" data-filter="bud">Bud Light</span></li>
-              <li><span class="filter" data-filter="oracle">Oracle</span></li>
-              <li><span class="filter" data-filter="ray">Ray Ban</span></li>
-              <li><span class="filter" data-filter="micro">Microsoft</span></li>
-              <li><span class="filter" data-filter="edi">Edison</span></li>
-              <li><span class="filter" data-filter="cape">Cape Town Child Welfare Society</span></li>
-            </ul>
+            <div class="row">
+              <ul id="filters" class="clearfix">
+                <li><span class="filter active" data-filter="bud oracle ray micro edi cape">All</span></li>
+                <li><span class="filter" data-filter="bud">Bud Light</span></li>
+                <li><span class="filter" data-filter="cape">Cape Town Child Welfare Society</span></li>
+                <li><span class="filter" data-filter="oracle">Oracle</span></li>
+                <li><span class="filter" data-filter="ray">Ray Ban</span></li>
+                <li><span class="filter" data-filter="micro">Microsoft</span></li>
+                <li><span class="filter" data-filter="edi">Edison</span></li>
+              </ul>
+            </div>
       <div id="portfoliolist">
 
 
 
+          <div class="portfolio_row">
 
             <div class="portfolio bud" data-cat="bud">
               <div class="portfolio-wrapper">
@@ -348,7 +350,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 
-            <div class="portfolio cape portfolio_col" data-cat="cape">
+            <div class="portfolio micro" data-cat="micro">
+                <div class="portfolio-wrapper">
+                  <a class="popup-with-zoom-anim" href="#small-dialog3">
+                    <ul class="ch-grid">
+                      <li>
+                        <div class="ch-item ch-img-3">
+                          <div class="ch-info">
+                            <img src="images/zoom-white.png"/>
+                            <h3>Microsoft</h3>
+                            <p><a href="#"></a></p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </a>
+                </div>
+              </div>
+
+
+            <div class="portfolio cape" data-cat="cape">
               <div class="portfolio-wrapper">
                 <a class="popup-with-zoom-anim" href="#small-dialog2">
                   <ul class="ch-grid">
@@ -367,17 +388,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
 
 
-
-            <div class="hide">
-              <div class="portfolio micro portfolio_col" data-cat="micro">
+            <!--
+            <div class="portfolio_col">
+              <div class="portfolio bud portfolio_col" data-cat="bud">
                 <div class="portfolio-wrapper">
-                  <a class="popup-with-zoom-anim" href="#small-dialog3">
+                  <a class="popup-with-zoom-anim" href="#small-dialog4">
                     <ul class="ch-grid">
                       <li>
-                        <div class="ch-item ch-img-3">
+                        <div class="ch-item ch-img-4">
                           <div class="ch-info">
                             <img src="images/zoom-white.png"/>
-                            <h3>Microsoft</h3>
+                            <h3>Bud Light</h3>
                             <p><a href="#"></a></p>
                           </div>
                         </div>
@@ -387,19 +408,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
               </div>
             </div>
+            -->
 
 
-          <!--
-          <div class="portfolio_col">
-            <div class="portfolio bud portfolio_col" data-cat="bud">
+
+
+            <div class="portfolio ray" data-cat="ray">
               <div class="portfolio-wrapper">
-                <a class="popup-with-zoom-anim" href="#small-dialog4">
+                <a class="popup-with-zoom-anim" href="#small-dialog5">
                   <ul class="ch-grid">
                     <li>
-                      <div class="ch-item ch-img-4">
+                      <div class="ch-item ch-img-5">
                         <div class="ch-info">
                           <img src="images/zoom-white.png"/>
-                          <h3>Bud Light</h3>
+                          <h3>Ray Ban</h3>
                           <p><a href="#"></a></p>
                         </div>
                       </div>
@@ -408,21 +430,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </a>
               </div>
             </div>
-          </div>
-          -->
+
+      </div> <!-- row -->
 
 
+      <div class="portfolio_row">
 
-      <div class="hide">
-        <div class="portfolio ray" data-cat="ray">
+
+        <div class="portfolio edi" data-cat="edi">
           <div class="portfolio-wrapper">
-            <a class="popup-with-zoom-anim" href="#small-dialog5">
+            <a class="popup-with-zoom-anim" href="#small-dialog10">
               <ul class="ch-grid">
                 <li>
-                  <div class="ch-item ch-img-5">
+                  <div class="ch-item ch-img-10">
                     <div class="ch-info">
                       <img src="images/zoom-white.png"/>
-                      <h3>Ray Ban</h3>
+                      <h3>Edison</h3>
                       <p><a href="#"></a></p>
                     </div>
                   </div>
@@ -431,29 +454,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </a>
           </div>
         </div>
-      </div>
 
-      <div class="hide">
-        <div class="portfolio bud" data-cat="bud">
-          <div class="portfolio-wrapper">
-            <a class="popup-with-zoom-anim" href="#small-dialog6">
-              <ul class="ch-grid">
-                <li>
-                  <div class="ch-item ch-img-6">
-                    <div class="ch-info">
-                      <img src="images/zoom-white.png"/>
-                      <h3>Bud Light</h3>
-                      <p><a href="#"></a></p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </a>
-          </div>
-        </div>
-      </div>
 
-      <div>
         <div class="portfolio oracle" data-cat="oracle">
           <div class="portfolio-wrapper">
             <a class="popup-with-zoom-anim" href="#small-dialog7">
@@ -471,15 +473,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </a>
           </div>
         </div>
-      </div>
 
-      <div>
+
         <div class="portfolio bud" data-cat="bud" id="hide">
           <div class="portfolio-wrapper">
             <a class="popup-with-zoom-anim" href="#small-dialog8">
               <ul class="ch-grid">
                 <li>
-                  <div class="ch-item ch-img-8">
+                  <div class="ch-item ch-img-1">
                     <div class="ch-info">
                       <img src="images/zoom-white.png"/>
                       <h3>Bud Light</h3>
@@ -491,45 +492,47 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </a>
           </div>
         </div>
-      </div>
 
-      <!--
-      <div class="portfolio bud" data-cat="bud">
-        <div class="portfolio-wrapper">
-          <a class="popup-with-zoom-anim" href="#small-dialog9">
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-1">
-                  <div class="ch-info">
-                    <img src="images/zoom-white.png"/>
-                    <h3>Bud Light</h3>
-                    <p><a href="#"></a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </a>
-        </div>
-      </div>
-      -->
 
-      <div class="portfolio edi" data-cat="edi">
-        <div class="portfolio-wrapper">
-          <a class="popup-with-zoom-anim" href="#small-dialog10">
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-10">
-                  <div class="ch-info">
-                    <img src="images/zoom-white.png"/>
-                    <h3>Edison</h3>
-                    <p><a href="#"></a></p>
+        <!--
+        <div class="portfolio bud" data-cat="bud">
+          <div class="portfolio-wrapper">
+            <a class="popup-with-zoom-anim" href="#small-dialog9">
+              <ul class="ch-grid">
+                <li>
+                  <div class="ch-item ch-img-1">
+                    <div class="ch-info">
+                      <img src="images/zoom-white.png"/>
+                      <h3>Bud Light</h3>
+                      <p><a href="#"></a></p>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </a>
+                </li>
+              </ul>
+            </a>
+          </div>
         </div>
-      </div>
+        -->
+
+        <div class="portfolio bud" data-cat="bud">
+          <div class="portfolio-wrapper">
+            <a class="popup-with-zoom-anim" href="#small-dialog6">
+              <ul class="ch-grid">
+                <li>
+                  <div class="ch-item ch-img-6">
+                    <div class="ch-info">
+                      <img src="images/zoom-white.png"/>
+                      <h3>Bud Light</h3>
+                      <p><a href="#"></a></p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </a>
+          </div>
+        </div>
+
+      </div>  <!-- row -->
 
       <!--
       <div class="hide">
