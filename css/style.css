@@ -104,6 +104,13 @@ body {
 	padding-bottom: 120px;
 }
 
+.strength_col {
+	width: 20%;
+	margin:	auto;
+	float: left;
+	margin-bottom: 1em;
+}
+
 .wide_col {
 	width: 66.66%;
 	margin: auto;
@@ -116,7 +123,7 @@ body {
 	width: 34%;
 	margin:	auto;
 	float: left;
-	padding-top: 40px;
+	padding-top: 65px;
 	padding-bottom: 0px;
 	padding-left: 40px;
 }
@@ -144,6 +151,12 @@ body {
 .contact-icons {
 	max-width: 100%;
 	margin:	auto;
+	display: block;
+}
+
+.strength-icons {
+	max-width: 100%;
+	margin: auto;
 	display: block;
 }
 
@@ -306,7 +319,7 @@ body {
 .resume p{
 	color:#fff;
 	font-size:1em;
-	padding-bottom: 4em;
+	padding-bottom: 3em;
 	letter-spacing: .7px;
 	line-height: 1.75;
 }
@@ -373,7 +386,7 @@ body {
 .about p{
 	color:#000;
 	font-size:1em;
-	padding-bottom: 3em;
+	padding-bottom: 1em;
 	padding-top: 1em;
 }
 .about-grids

@@ -108,9 +108,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           });
         });
       </script>
+
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- start-header -->
         <div class="header_bg">
           <div class="wrap">
@@ -159,7 +169,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <div class="about" id="about">
-  <div class="wrap">
+  <div class="wrap" style="width: 65%">
     <h2>About Me</h2>
     <p><span id="james_quote">"All of life is about connecting the dots." -James Altucher</span></p>
     <p><span id="my_quote">I'm all about lifting people up.  I thrive in ventures that allow me to collaborate with others to create environments that delight and inspire.</span></p>
@@ -212,6 +222,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               </div>
             </div>
 
+            <!--
             <div id="small-dialog4" class="mfp-hide">
               <div class="pop_up">
                 <h2>Whatever, USA - Crested Butte, CO</h2>
@@ -219,6 +230,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="para">Two weeks prior to the event, the Hargrove team and crew arrived to build our scenery—everything from a 40’ T Bud Light bottle to a 16’ T neon lit boom box.  We soon learned the entire project was in jeopardy as the board of the town hadn’t approved hosting the event.  I partnered with our client to compose a Life Safety and Operations Plan, which the board ultimately cited as the main reason they voted in favor and the show went on.</p>
               </div>
             </div>
+            -->
 
             <div id="small-dialog5" class="mfp-hide">
               <div class="pop_up">
@@ -238,9 +250,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
             <div id="small-dialog7" class="mfp-hide">
               <div class="pop_up">
-                <h2>ASAE Springtime - Walter E. Washington Convention Center, Washington, D.C.</h2>
-                <img src="images/photo10_atlanta.jpg" alt=""/>
-                <p class="para">I’ve honed my ability to handle multiple projects and competing deadlines.  Showcased here is the build I managed for the Atlanta Tourism Bureau, 1 of 4 exhibits I managed at this tradeshow.</p>
+                <h2>Oracle Open World - San Francisco, CA</h2>
+
+                 <!-- video code goes here -->
+                 <div class="fb-video" data-href="https://www.facebook.com/FacebookDevelopers/videos/10152454700553553/"
+  data-allowfullscreen="true" data-width="500"></div>
+
+
+                <p class="para"></p>
               </div>
             </div>
 
@@ -251,6 +268,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               </div>
             </div>
 
+            <!--
             <div id="small-dialog9" class="mfp-hide">
               <div class="pop_up">
                 <h2>House of Whatever Super Bowl - Phoenix, AZ</h2>
@@ -258,6 +276,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="para">In less than 24 hours, we rebuilt the entire space that the Kongos and Nikki Minaj performed on during the first night, for Diplo to perform the next night.</p>
               </div>
             </div>
+            -->
 
             <div id="small-dialog10" class="mfp-hide">
               <div class="pop_up">
@@ -267,6 +286,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               </div>
             </div>
 
+            <!--
             <div id="small-dialog11" class="mfp-hide">
               <div class="pop_up">
                 <h2>House of Whatever Tour</h2>
@@ -274,7 +294,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="para">We repurposed some of the elements from the House of Whatever into a scalable pop-up activation that could meet millennials at places they gravitate toward.  This set toured to Stagecoach, Hangouts Festival, CMA Festival, X Games, EDC New York, EDC Vegas and Lollapalooza.  At each stop, the pop-up was re-branded to keep in line with the Festival’s requirements and theme.</p>
               </div>
             </div>
+            -->
 
+            <!--
             <div id="small-dialog12" class="mfp-hide">
               <div class="pop_up">
                 <h2>Whatever, USA 2.0 - Catalina Island, CA</h2>
@@ -282,6 +304,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p class="para"></p>
               </div>
             </div>
+            -->
 
 
           <!--end-mfp -->
@@ -291,90 +314,104 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <div class="container">
             <h2>Portfolio</h2>
             <p>See below for a few samples of projects that showcase the quality of my work.</p>
-          <ul id="filters" class="clearfix">
-            <li><span class="filter active" data-filter="bud asae ray micro edi cape">All</span></li>
-            <li><span class="filter" data-filter="bud">Bud Light</span></li>
-            <li><span class="filter" data-filter="asae">ASAE Springtime</span></li>
-            <li><span class="filter" data-filter="ray">Ray Ban</span></li>
-            <li><span class="filter" data-filter="micro">Microsoft</span></li>
-            <li><span class="filter" data-filter="edi">Edison</span></li>
-            <li><span class="filter" data-filter="cape">Cape Town Child Welfare Society</span></li>
-          </ul>
+            <ul id="filters" class="clearfix">
+              <li><span class="filter active" data-filter="bud oracle ray micro edi cape">All</span></li>
+              <li><span class="filter" data-filter="bud">Bud Light</span></li>
+              <li><span class="filter" data-filter="oracle">Oracle</span></li>
+              <li><span class="filter" data-filter="ray">Ray Ban</span></li>
+              <li><span class="filter" data-filter="micro">Microsoft</span></li>
+              <li><span class="filter" data-filter="edi">Edison</span></li>
+              <li><span class="filter" data-filter="cape">Cape Town Child Welfare Society</span></li>
+            </ul>
       <div id="portfoliolist">
 
-      <div class="portfolio bud" data-cat="bud">
-        <div class="portfolio-wrapper">
-          <a class="popup-with-zoom-anim" href="#small-dialog1">
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-1">
-                  <div class="ch-info">
-                    <img src="images/zoom-white.png"/>
-                    <h3>Bud Light</h3>
-                    <p><a href="#"><!-- couple put something here --></a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </a>
-        </div>
-      </div>
 
-      <div class="portfolio cape" data-cat="cape">
-        <div class="portfolio-wrapper">
-          <a class="popup-with-zoom-anim" href="#small-dialog2">
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-2">
-                  <div class="ch-info">
-                    <img src="images/zoom-white.png"/>
-                    <h3>Cape Town CWS</h3>
-                    <p><a href="#"></a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </a>
-        </div>
-      </div>
 
-      <div class="hide">
-        <div class="portfolio micro" data-cat="micro">
-          <div class="portfolio-wrapper">
-            <a class="popup-with-zoom-anim" href="#small-dialog3">
-              <ul class="ch-grid">
-                <li>
-                  <div class="ch-item ch-img-3">
-                    <div class="ch-info">
-                      <img src="images/zoom-white.png"/>
-                      <h3>Microsoft</h3>
-                      <p><a href="#"></a></p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </a>
+
+            <div class="portfolio bud" data-cat="bud">
+              <div class="portfolio-wrapper">
+                <a class="popup-with-zoom-anim" href="#small-dialog1">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-1">
+                        <div class="ch-info">
+                          <img src="images/zoom-white.png"/>
+                          <h3>Bud Light</h3>
+                          <p><a href="#"><!-- could put something here --></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+
+
+
+            <div class="portfolio cape portfolio_col" data-cat="cape">
+              <div class="portfolio-wrapper">
+                <a class="popup-with-zoom-anim" href="#small-dialog2">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-2">
+                        <div class="ch-info">
+                          <img src="images/zoom-white.png"/>
+                          <h3>Cape Town CWS</h3>
+                          <p><a href="#"></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+
+
+
+            <div class="hide">
+              <div class="portfolio micro portfolio_col" data-cat="micro">
+                <div class="portfolio-wrapper">
+                  <a class="popup-with-zoom-anim" href="#small-dialog3">
+                    <ul class="ch-grid">
+                      <li>
+                        <div class="ch-item ch-img-3">
+                          <div class="ch-info">
+                            <img src="images/zoom-white.png"/>
+                            <h3>Microsoft</h3>
+                            <p><a href="#"></a></p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+          <!--
+          <div class="portfolio_col">
+            <div class="portfolio bud portfolio_col" data-cat="bud">
+              <div class="portfolio-wrapper">
+                <a class="popup-with-zoom-anim" href="#small-dialog4">
+                  <ul class="ch-grid">
+                    <li>
+                      <div class="ch-item ch-img-4">
+                        <div class="ch-info">
+                          <img src="images/zoom-white.png"/>
+                          <h3>Bud Light</h3>
+                          <p><a href="#"></a></p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+          -->
 
-      <div class="portfolio bud" data-cat="bud">
-        <div class="portfolio-wrapper">
-          <a class="popup-with-zoom-anim" href="#small-dialog4">
-            <ul class="ch-grid">
-              <li>
-                <div class="ch-item ch-img-4">
-                  <div class="ch-info">
-                    <img src="images/zoom-white.png"/>
-                    <h3>Bud Light</h3>
-                    <p><a href="#"></a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </a>
-        </div>
-      </div>
+
 
       <div class="hide">
         <div class="portfolio ray" data-cat="ray">
@@ -417,7 +454,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       </div>
 
       <div>
-        <div class="portfolio asae" data-cat="asae">
+        <div class="portfolio oracle" data-cat="oracle">
           <div class="portfolio-wrapper">
             <a class="popup-with-zoom-anim" href="#small-dialog7">
               <ul class="ch-grid">
@@ -425,7 +462,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                   <div class="ch-item ch-img-7">
                     <div class="ch-info">
                       <img src="images/zoom-white.png"/>
-                      <h3>ASAE Springtime</h3>
+                      <h3>Oracle</h3>
                       <p><a href="#"></a></p>
                     </div>
                   </div>
@@ -456,6 +493,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
       </div>
 
+      <!--
       <div class="portfolio bud" data-cat="bud">
         <div class="portfolio-wrapper">
           <a class="popup-with-zoom-anim" href="#small-dialog9">
@@ -473,6 +511,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           </a>
         </div>
       </div>
+      -->
 
       <div class="portfolio edi" data-cat="edi">
         <div class="portfolio-wrapper">
@@ -492,6 +531,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
       </div>
 
+      <!--
       <div class="hide">
         <div class="portfolio bud" data-cat="bud">
           <div class="portfolio-wrapper">
@@ -511,7 +551,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           </div>
         </div>
       </div>
+      -->
 
+      <!--
       <div class="portfolio bud" data-cat="bud">
         <div class="portfolio-wrapper">
           <a class="popup-with-zoom-anim" href="#small-dialog12">
@@ -529,6 +571,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           </a>
         </div>
       </div>
+      -->
 
     </div>
   </div><!-- container -->
@@ -549,14 +592,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- start resume -->
 <div class="resume" id="more">
-  <div class="wrap">
+  <div class="wrap" style="width: 65%">
     <div class="more">
       <h2>More About Allison</h2>
       <p>I had my first website when I was 6 years old - www.AllisonDesign.com.  I created pictures in Photoshop, printed them on t-shirts and showcased on my site.  While t-shirt sales wasn't exactly my calling I did become comfortable with technology at a young age, which has made me a quick study with new systems and software.</p>
 
       <p>I was a hand model as a kid, second-generation hand model as a matter of fact.  Yes - kind of like George Costanza or Zoolander.</p>
 
-      <p><a href="http://www.strengthsfinder.com/home.aspx" target="_blank">Strengths Finder Top 5:</a> Adaptability, Strategic, Empathy, Individualization, and Futuristic</p>
+      <p style="padding-bottom: 1em"><a href="http://www.strengthsfinder.com/home.aspx" target="_blank">Strengths Finder Top 5:</a></p>
+        <div class="row">
+          <div class="strength_col">
+            <img src="images/strength1.png" class="strength-icons">
+          </div>
+
+          <div class="strength_col">
+            <img src="images/strength2.png" class="strength-icons">
+          </div>
+
+          <div class="strength_col">
+            <img src="images/strength3.png" class="strength-icons">
+          </div>
+
+          <div class="strength_col">
+            <img src="images/strength4.png" class="strength-icons">
+          </div>
+
+          <div class="strength_col">
+            <img src="images/strength5.png" class="strength-icons">
+          </div>
+        </div>
 
       <p>Which means I can roll with the punches while keeping a smile on my face.  In fact, I’ve anticipated this rocky road and have a strategy to respond to the new landscape.  I’ll help each person on the team come around to the change, even when they initially see it as a setback.  I’ll know who on the team will take it the hardest, and that they'll need a one-on-one meeting to soften the blow — not just an email update.  All while I still have our long-term goals in mind.  After the one-on-one meeting I'll be back to developing a new tool with the IT department that will make it more efficient for us to manage our corporate calendar.</p>
 
