@@ -126,6 +126,7 @@ body {
 	padding-top: 65px;
 	padding-bottom: 0px;
 	padding-left: 40px;
+	height: 100%;
 }
 
 .wide_about_col {
@@ -425,7 +426,7 @@ body {
 	opacity:1;
 }
 .post-person{
-	width:100%;
+	width:90%;
 }
 .grid:nth-child(3)
 {
